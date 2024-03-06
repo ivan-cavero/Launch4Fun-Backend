@@ -1,9 +1,9 @@
 import { Elysia } from "elysia"
-import authenticationRoutes from "./AuthenticationRoutes"
+import shortLinkRoutes from "./ShortLinkRoutes"
 
 const setupRoutes = (app: Elysia) => {
 	app.get("/", () => 'Server is up')
-	authenticationRoutes(app)
+	shortLinkRoutes(app)
 }
 
 export default setupRoutes

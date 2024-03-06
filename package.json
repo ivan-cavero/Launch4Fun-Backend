@@ -8,7 +8,7 @@
     "lint": "bunx @biomejs/biome check --apply ."
   },
   "dependencies": {
-    "@elysiajs/jwt": "^0.8.0",
+    "@elysiajs/cors": "^0.8.0",
     "@elysiajs/server-timing": "^0.8.0",
     "@elysiajs/swagger": "^0.8.5",
     "@libsql/client": "^0.4.3",
